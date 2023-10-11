@@ -1,5 +1,4 @@
-export * from "./colors"
-import * as ButtonStyle from "./buttons"
+export * from "./Colors";
+import * as ButtonStyle from "./ButtonStyle";
 
-
-export {ButtonStyle}
+export { ButtonStyle };

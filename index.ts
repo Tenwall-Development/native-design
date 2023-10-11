@@ -1,4 +1,5 @@
-import * as Colors from "./colors"
+export * from "./colors"
+import * as ButtonStyle from "./buttons"
 
 
-export {Colors}
+export {ButtonStyle}

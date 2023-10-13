@@ -8,7 +8,7 @@ const buttonCore = StyleSheet.create({
   },
 
   rounded: {
-    borderRadius: 20,
+    borderRadius: 1000,
   },
 });
 

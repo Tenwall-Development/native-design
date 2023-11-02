@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { TextStyle } from ".";
+import { Radius, TextStyle } from ".";
 import { colors } from "./Colors";
 
 export const PrimaryInputStyle = StyleSheet.create({
@@ -25,17 +25,16 @@ export const SquareInputStyle = StyleSheet.create({
   titleStyle: {
     ...TextStyle.body,
     color: colors.dark,
-    paddingLeft: 10,
+    paddingLeft: 5,
   },
   inputTextStyle: {
-    borderRadius: 60,
-    borderWidth: 3,
+    borderRadius: Radius.s,
+    borderWidth: 2,
     borderColor: colors.grey,
-    // width: 300,
-    height: 50,
+    height: 45,
     alignSelf: "stretch",
   },
   inputContainer: {
-    flexGrow: 0,
+    alignSelf: "stretch",
   },
 });

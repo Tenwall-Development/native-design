@@ -10,4 +10,5 @@ export const colors = {
   teal: "#8bd3ce",
   grey: "#bdbcbc",
   lightGreen: "#99cfb2",
+  orange: "#f69a0a",
 };

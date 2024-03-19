@@ -1,5 +1,5 @@
-import { TextStyle } from "react-native";
-import { colors } from "./Colors";
+import { TextStyle } from 'react-native';
+import { colors } from './Colors';
 
 const textCore: { [key: string]: TextStyle } = {
   defaultFont: {
@@ -11,13 +11,13 @@ const textCore: { [key: string]: TextStyle } = {
 export const h1: TextStyle = {
   ...textCore.defaultFont,
   fontSize: 32,
-  fontWeight: "bold",
+  fontWeight: 'bold',
 };
 
 export const h2: TextStyle = {
   ...textCore.defaultFont,
   fontSize: 24,
-  fontWeight: "bold",
+  fontWeight: 'bold',
 };
 
 export const h3: TextStyle = {

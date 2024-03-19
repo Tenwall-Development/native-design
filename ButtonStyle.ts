@@ -1,10 +1,10 @@
-import { StyleSheet } from "react-native";
-import { colors } from "./Colors";
+import { StyleSheet } from 'react-native';
+import { colors } from './Colors';
 
 const buttonCore = StyleSheet.create({
   center: {
-    alignItems: "center",
-    justifyContent: "center",
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 
   rounded: {

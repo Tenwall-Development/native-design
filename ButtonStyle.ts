@@ -1,5 +1,5 @@
-import { StyleSheet } from 'react-native';
-import { colors } from './Colors';
+import {StyleSheet} from 'react-native';
+import {colors} from './Colors';
 
 const buttonCore = StyleSheet.create({
   center: {
@@ -24,5 +24,11 @@ export const primary = {
   ...padding(12, 32),
   ...buttonCore.rounded,
   elevation: 4,
+  backgroundColor: colors.danger_red,
+};
+
+export const square = {
+  ...buttonCore.center,
+  ...padding(12, 12),
   backgroundColor: colors.danger_red,
 };

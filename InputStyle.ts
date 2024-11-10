@@ -1,13 +1,14 @@
 import { StyleSheet } from 'react-native';
-import { Radius, TextStyle } from '.';
+import { Radius } from './Sizes';
+// import * as TextStyle from './TextStyle';
 import { colors } from './Colors';
 
 export const PrimaryInputStyle = StyleSheet.create({
-  titleStyle: {
-    ...TextStyle.body,
-    color: colors.dark,
-    paddingLeft: 10,
-  },
+  // titleStyle: {
+  //   ...TextStyle.body,
+  //   color: colors.dark,
+  //   paddingLeft: 10,
+  // },
   inputTextStyle: {
     borderRadius: 60,
     borderWidth: 3,
@@ -22,11 +23,11 @@ export const PrimaryInputStyle = StyleSheet.create({
 });
 
 export const SquareInputStyle = StyleSheet.create({
-  titleStyle: {
-    ...TextStyle.body,
-    color: colors.dark,
-    paddingLeft: 5,
-  },
+  // titleStyle: {
+  //   ...TextStyle.body,
+  //   color: colors.dark,
+  //   paddingLeft: 5,
+  // },
   inputTextStyle: {
     borderRadius: Radius.s,
     borderWidth: 2,
